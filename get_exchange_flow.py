@@ -6,7 +6,6 @@ Created on Fri Apr 12 21:54:26 2019
 @author: ayx
 """
 import os
-os.chdir(r'/Users/ayx/Documents/Trading/CryptoCoin/chainflow')
 from tabulate import tabulate
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
