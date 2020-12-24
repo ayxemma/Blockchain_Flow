@@ -99,10 +99,10 @@ class flow_tracker():
                     
     def send_email(self, df_msg):
         logger.info('send email')
-        me = 'wintersunrise11@gmail.com'
-        password = 'ayldxpayx11!!'
+        me = 'xxx@gmail.com'
+        password = 'xxx'
         server = 'smtp.gmail.com:587'
-        you = 'wintersunrise11@gmail.com'
+        you = 'xxx@gmail.com'
     
         html = """
         <html><body>
@@ -195,12 +195,12 @@ class flow_tracker():
         
     def send_email_aws(self, df_msg):
         logger.info('send email')
-        me = 'wintersunrise11@gmail.com'
-        you = 'wintersunrise11@gmail.com'
+        me = 'xxx@gmail.com'
+        you = 'xxx@gmail.com'
         server=smtplib.SMTP()
         server.connect('email-smtp.us-east-1.amazonaws.com',587)
         server.starttls()
-        server.login('AKIAQBMHTOYYEHJPSPEY','BNykjiMtn9s9dw66OEcEkFV8FqYc38rvo0dSXLhwoJKO')
+        server.login('xxx','xxx')
     
         html = """
         <html><body>
